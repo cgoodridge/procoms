@@ -1,0 +1,281 @@
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    
+    /* background: #0d0f0f;
+    color: white; */
+}
+
+h2 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h3 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+form h2
+{
+    color: white;
+}
+form h3
+{
+    color: white;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(14,14,65,1) 39%, rgba(134,45,201,1) 100%);
+}
+
+.input
+{
+    border: none;
+    border-radius: 25px;
+    padding:15px 20px;
+    background:rgba(255,255,255,.1);
+    margin: 16px;
+}
+
+.input-new
+{
+    border: none;
+    border-radius: 25px;
+    padding:15px 20px;
+    background:rgb(100,100,100);
+    margin: 16px;
+}
+input:focus{
+    outline: 0;
+}
+*:focus {
+    outline: 0;
+}
+
+::placeholder { 
+    color: white;  
+}
+
+.menu{
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+input { 
+    color: white;  
+}
+
+.newStudent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.newStudent a 
+{
+    padding: 16px;
+}
+
+
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+
+.items div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
+    height: 125px;
+    -webkit-box-shadow: 10px 6px 23px 2px rgba(0,0,0,0.28);
+    -moz-box-shadow: 10px 6px 23px 2px rgba(0,0,0,0.28);
+    box-shadow: 10px 6px 23px 2px rgba(0,0,0,0.28);
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+
+}
+
+.items a
+{
+    text-decoration: none;
+
+}
+
+.errorText
+{
+    color: red;
+}
+.console{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 0px; */
+}
+
+.console-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #212121;
+    width: 100%;
+    padding-left: 16px;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+  }
+  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+   
+    position: absolute;
+    z-index: 1;
+  }
+  
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.menu-header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn
+{
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn-cancel
+{
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+th, td 
+{
+    padding: 15px;
+    /* text-align: left; */
+    border-bottom: 1px solid #ddd;
+}
+
+td{
+    margin: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr:hover 
+{
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) 
+{
+    /* background-color: #f2f2f2; */
+}
+
+.table-class
+{
+    width: 100%;
+}
+
+nav div 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signIn
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-student
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
