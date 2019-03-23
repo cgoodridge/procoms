@@ -7,11 +7,6 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway:100,200" rel="stylesheet">
     </head>
     <body>
-    <noscript>
-        <?php
-            echo "test";
-        ?>
-    </noscript>
         <div class="container">
             <form action="./scripts/validate.php" name="loginForm" method="POST" class="login">
                 <h2>Programme Coordinator Management System</h2>
